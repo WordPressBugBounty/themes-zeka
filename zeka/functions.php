@@ -126,14 +126,15 @@ zeka_theme()
 			'width'       => 150,
 			'height'      => 70,
 		)
-	)
-	->register_menus(
-		array(
-			'header-menu' => esc_html__( 'Header Menu', 'zeka' ),
-			'footer-menu' => esc_html__( 'Footer Menu', 'zeka' ),
-		)
 	);
-
+add_action('after_setup_theme', function() {
+    zeka_theme()->register_menus(
+        array(
+            'header-menu' => esc_html__( 'Header Menu', 'zeka' ),
+            'footer-menu' => esc_html__( 'Footer Menu', 'zeka' ),
+        )
+    );
+},1);
 if ( ! apply_filters( 'kubio_is_enabled', false ) ) {
 	zeka_assets()
 		->registerTemplateScript(

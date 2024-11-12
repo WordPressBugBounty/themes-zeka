@@ -186,11 +186,11 @@ $zeka_gradients                     = array(
 		),
 
 );
-$zeka_theme_action_button           = __( 'Get started today', 'zeka' );
-$zeka_theme_action_button_secondary = __( 'Learn more', 'zeka' );
+$zeka_theme_action_button           =  'Get started today';
+$zeka_theme_action_button_secondary = 'Learn more';
 
-$zeka_theme_click_pen_to_edit_title = __( 'Technology makes the world a new place', 'zeka' );
-$zeka_lorem_ipsum                   = __( 'Nunc a consequat nisl. Donec justo odio, tincidunt eu neque vitae, consectetur ultricies est. Praesent sodales, erat quis interdum dictum, turpis velit tincidunt est, quis euismod diam quam id massa. Duis vulputate urna vitae malesuada mattis.', 'zeka' );
+$zeka_theme_click_pen_to_edit_title =  'Technology makes the world a new place';
+$zeka_lorem_ipsum                   = 'Nunc a consequat nisl. Donec justo odio, tincidunt eu neque vitae, consectetur ultricies est. Praesent sodales, erat quis interdum dictum, turpis velit tincidunt est, quis euismod diam quam id massa. Duis vulputate urna vitae malesuada mattis.';
 
 return array(
 	'default_icon'                 => $zeka_theme_svg_icons['fort-awesome'],
