@@ -4,37 +4,37 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit34996fbc6d45b47d3ab71d746815722d
+class ComposerStaticInit0163fd7f33f95b8f487d387123564a90
 {
     public static $files = array (
         'f40eb6b6e72038beec37d8a0baa6e2f0' => __DIR__ . '/../..' . '/inc/template-functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'Wolfcast\\' => 9,
         ),
-        'K' => 
+        'K' =>
         array (
             'Kubio\\Theme\\' => 12,
         ),
-        'C' => 
+        'C' =>
         array (
             'ColibriWP\\Theme\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Wolfcast\\' => 
+        'Wolfcast\\' =>
         array (
             0 => __DIR__ . '/../..' . '/lib/browser-detection',
         ),
-        'Kubio\\Theme\\' => 
+        'Kubio\\Theme\\' =>
         array (
             0 => __DIR__ . '/../..' . '/lib/kubio-themebase/src',
         ),
-        'ColibriWP\\Theme\\' => 
+        'ColibriWP\\Theme\\' =>
         array (
             0 => __DIR__ . '/../..' . '/lib/colibriwp/src',
         ),
@@ -129,7 +129,7 @@ class ComposerStaticInit34996fbc6d45b47d3ab71d746815722d
         'ColibriWP\\Theme\\ThemeTranslations' => __DIR__ . '/../..' . '/lib/colibriwp/src/ThemeTranslations.php',
         'ColibriWP\\Theme\\Translations' => __DIR__ . '/../..' . '/lib/colibriwp/src/Translations.php',
         'ColibriWP\\Theme\\View' => __DIR__ . '/../..' . '/lib/colibriwp/src/View.php',
-        'Kubio\\Theme\\Components\\CSSOutput' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/CssOutput.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Kubio\\Theme\\Components\\Common\\HeroStyle' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Common/HeroStyle.php',
         'Kubio\\Theme\\Components\\Common\\NavigationStyle' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Common/NavigationStyle.php',
         'Kubio\\Theme\\Components\\Footer' => __DIR__ . '/../..' . '/lib/kubio-themebase/src/Components/Footer.php',
@@ -165,9 +165,9 @@ class ComposerStaticInit34996fbc6d45b47d3ab71d746815722d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit34996fbc6d45b47d3ab71d746815722d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit34996fbc6d45b47d3ab71d746815722d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit34996fbc6d45b47d3ab71d746815722d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0163fd7f33f95b8f487d387123564a90::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0163fd7f33f95b8f487d387123564a90::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0163fd7f33f95b8f487d387123564a90::$classMap;
 
         }, null, ClassLoader::class);
     }
